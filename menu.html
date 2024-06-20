@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>That One Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resources">
+        <div class="electron-amount">
+            <p>Electrons: <span class="electrons">2000</span></p>
+         </div>
+        <div class="proton-amount">
+            <p>Protons: <span class="protons">2000</span></p>
+        </div>
+        <div class="neutron-amount">
+            <p>Nuetrons: <span class="neutrons">200</span></p>
+        </div>
+        <div>
+            <p>Tickspeed: <span class="tickspeed">1000</span>ms</p>
+        </div>
+    </div>
+    <div class="hydrogen">
+        <div class="hydrogen-title">
+            <h2>Hydrogen</h2>
+        </div>
+        <div class="hydrogen-upgrade1" onclick="buyHU1()">
+            <p>Increase electron gain<br>(+<span class="HU1level">0</span>)<br><span class="HU1cost">10</span> electrons</p>
+        </div>
+        <div class="hydrogen-upgrade2" onclick="buyHU2()">
+            <p>Increase proton gain<br>(+<span class="HU2level">0</span>)<br><span class="HU2cost">10</span> protons</p>
+        </div>
+        <div class="hydrogen-upgrade3" onclick="buyHU3()">
+            <p>Multiply proton and electron gain<br>(x<span class="HU3level">1</span>)<br><span class="HU3cost">5</span> neutrons</p>
+        </div>
+   </div>
+   <div class="Helium">
+     <div class="helium-title">
+        <h2>Helium</h2>
+     </div>
+     <div class="helium-unlocked" id="div2">
+     <div class="helium-upgrade1" onclick="buyHeU1()">
+        <p>Double proton and electron gain<br>(x<span class="HeU1level">1</span>)<br><span class="HeU1cost">1000</span> protons and electrons</p>
+     </div>
+     <div class="helium-upgrade2" onclick="buyHeU2()">
+        <p>Increase neutron gain<br>(+<span class="HeU2level">0</span>)<br><span class="HeU2cost">100</span> neutrons</p>
+     </div>
+     <div class="helium-upgrade3" onclick="buyHeU3">
+        <p>Multiply neutron gain<br>(x<span class="HeU3level">1</span>)<br><span class="HeU3cost">500</span> neutrons</p>
+     </div>
+     </div>
+     <div class="helium-locked" id="div1" onclick="unlockHe()">
+        <p>Costs 1000 protons and electrons</p>
+        <h6>(click here)</h6>
+     </div>
+   </div>
+   <script src="break_eternity.js"></script>
+   <script src="resources.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+body {
+    padding-left: px;
+    margin: 0;
+    background-color: #292929;
+    color: #dddddd;
+    user-select: none;
+}
+
+.resources {
+    margin-left: 5px;
+}
+
+.hydrogen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    border: 3px solid #dddddd;
+    width: 200px;
+    height: 450px;
+    border-radius: 5px;
+    margin-left: 5px;
+    position: absolute;
+}
+
+.hydrogen-title {
+    border: 3px solid #dddddd;
+    width: 200px;
+    height: 70px;
+}
+
+.hydrogen-upgrade1 {
+    border: 3px solid #dddddd;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.hydrogen-upgrade1 :hover {
+    cursor: pointer;
+}
+
+.hydrogen-upgrade2 {
+    border: 3px solid #dddddd;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.hydrogen-upgrade2 :hover {
+    cursor: pointer;
+}
+
+.hydrogen-upgrade3 {
+    border: 3px solid #dddddd;
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.hydrogen-upgrade3 :hover {
+    cursor: pointer;
+}
+
+.Helium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #dddddd;
+    width: 200px;
+    height: 450px;
+    border-radius: 5px;
+    margin-left: 215px;
+    position: relative;
+}
+
+.Helium :hover {
+    cursor: pointer;
+}
+
+.helium-title {
+    border: 3px solid #dddddd;
+    width: 200px;
+    height: 70px;
+}
+
+.helium-upgrade1 {
+    border: 3px solid #dddddd;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.helium-upgrade1 :hover {
+    cursor: pointer;
+}
+
+.helium-upgrade2 {
+    border: 3px solid #dddddd;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.helium-upgrade2 :hover {
+    cursor: pointer;
+}
+
+.helium-upgrade3 {
+    border: 3px solid #dddddd;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.helium-upgrade3 :hover {
+    cursor: pointer;
+}
+
+.helium-locked {
+    margin-top: 140px;
+}
+
+.helium-unlocked {
+    display: none;
+    margin-top: 18px;
+}
